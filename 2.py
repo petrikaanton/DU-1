@@ -1,5 +1,5 @@
 limit=int(input("zadaj horný limit:"))
-if limit<1:
+if limit<=1:
     print("limit musí biť väčší ako 1")
 else:
     for i in range(1,limit+1):
